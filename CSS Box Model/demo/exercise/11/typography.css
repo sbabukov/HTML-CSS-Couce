@@ -52,3 +52,34 @@ blockquote p.author {
     text-align: right;
     font-weight: bold;
 }
+
+table {
+    width: 600px;
+    border-spacing: 0;
+}
+
+th {
+    background-color: gray;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: 1px solid gray;
+}
+
+td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: 1px solid #AAA;
+}
+/* .first-row {
+    background: #AAA;
+} */
+
+/* /* tr :nth-child(odd) {
+    background: rgb(216, 213, 213);
+    
+} */
+
+/* tr ::nth-child(even) {
+    background: rgb(222, 216, 216);
+    
+}  */
