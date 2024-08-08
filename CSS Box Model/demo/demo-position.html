@@ -12,16 +12,57 @@
         }
 
         body {
+            padding: 2em;
+        }
+
+        .container {
+            border: 2px solid blue;
+            padding: 2em;
+        }
+
+        .item {
+            border: 1px solid #999;
+            width: 5em;
+            aspect-ratio: 1/1;
+            text-align: center;
+            align-content: center;
+            position: relative;
 
         }
 
-      
+        .item:nth-child(2) {
+            position: absolute;
+            top: 2em;
+            right: 2em;
+            background: lightblue;
+            z-index: 10;
+        }
+
+        .item:nth-child(3) {
+            background-color: lightyellow;
+            z-index: 15;
+        }
+
+        .item:nth-child(1),
+        .item:nth-child(3) {
+            display: none;
+        }
     </style>
     <title>Document</title>
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="item">
+            <p>Item1</p>
+        </div>
+        <div class="item">
+            <p>Item2</p>
+        </div>
+        <div class="item">
+            <p>Item3</p>
+        </div>
+    </div>
 </body>
 
 </html>
