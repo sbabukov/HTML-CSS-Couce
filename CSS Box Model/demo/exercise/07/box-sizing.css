@@ -1,0 +1,12 @@
+div {
+    border: 5px solid ;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #eee;
+    
+}
+
+.border-box {
+    box-sizing: border-box;
+}
