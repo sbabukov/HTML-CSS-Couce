@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+.font {
+    font-family: Arial;
+}
+
+.size {
+    font-size: 24px;
+}
+
+.weight {
+    font-weight: bold;
+}
+
+.style {
+    font-style: italic;
+}
+
+.variant {
+    font-variant: small-caps;
+}
