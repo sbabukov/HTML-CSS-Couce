@@ -1,0 +1,36 @@
+.container {
+    height: 200px;
+    width: 350px;
+    border: 2px solid blue;
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-start {
+    align-content: flex-start;
+}
+
+.center {
+    align-content: center;
+}
+
+.flex-end {
+    align-content: flex-end;
+}
+
+.space-between {
+align-content: space-between;
+}
+
+.space-around {
+    align-content: space-around;
+}
+
+.flex-item {
+border: 2px solid black;
+padding: 1em;
+background: #eee;
+
+}
