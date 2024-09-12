@@ -1,5 +1,5 @@
 .container {
-    width: 350px;
+    width: 300px;
     border: 2px solid blue;
     padding: 1em;
     display: flex;
@@ -9,6 +9,7 @@
 .container.flex-shrink-zero .flex-item {
     flex-shrink: 0;
 }
+
 
 .container.flex-shrink-2nd-only .flex-item {
     flex-shrink: 0;
@@ -22,6 +23,6 @@
     border: 2px solid black;
     padding: 1em;
     background: #eee;
-    flex-basis: 400px;
+    flex-basis: 300px;
 
 }
