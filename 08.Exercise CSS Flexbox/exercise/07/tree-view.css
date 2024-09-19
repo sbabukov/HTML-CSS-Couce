@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    font: 18px/1.5 Lato, sans-serif;
+}
+
+ul {
+    padding: 0 0 0 0.5em;
+}
+
+ul li {
+    display: flex;
+    list-style: none outside;
+}
+ul li li::before {
+    display: block;
+    content: '';
+    border: solid #ccc;
+    border-width: 0 0 3px 3px;
+    width: 1em;
+    height: 1em;
+    border-bottom-left-radius: 0.3em;
+    margin-right: 0.3em;
+}
+
+details {
+
+}
+
+details summary {
+    display: flex;
+    gap: 0.5em;
+}
+
+details summary::before {
+    display: block;
+    content: "+";
+    background: #090;
+    color: white;
+    width: 1.5em;
+    aspect-ratio: 1/1;
+    line-height: 1;
+    align-content: center;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+details[open] > summary::before {
+    content: "-";
+}
